@@ -19,7 +19,7 @@ public class TelaLogin extends JFrame {
         this.carrinho = carrinho;
         this.estoque = estoque;
 
-        setTitle("Uban Trends");
+        setTitle("Urban Trends");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(900, 700);
         setLocationRelativeTo(null);
