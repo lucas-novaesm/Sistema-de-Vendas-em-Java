@@ -33,7 +33,7 @@ public class TelaLogin extends JFrame {
         gbc.insets = new Insets(10, 10, 10, 10);
 
         // Adicionar a imagem da logo da loja
-        ImageIcon logoIcon = new ImageIcon("imagens/logo_ut.png");
+        ImageIcon logoIcon = new ImageIcon("urbanTrends/imagens/logo_ut.png");
         Image logoImage = logoIcon.getImage().getScaledInstance(300, 300, Image.SCALE_SMOOTH);
         JLabel labelLogo = new JLabel(new ImageIcon(logoImage));
         gbc.gridx = 0;
@@ -108,7 +108,7 @@ public class TelaLogin extends JFrame {
     }
 
     private boolean validarLogin(String usuario, String senha) {
-        try (BufferedReader br = new BufferedReader(new FileReader("data/usuarios.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("urbanTrends/data/usuarios.txt"))) {
             String linha;
             while ((linha = br.readLine()) != null) {
                 String[] dados = linha.split(",");

@@ -95,7 +95,7 @@ public class TelaCadastro extends JFrame {
         botaoCadastrar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 Cliente novoCliente = new Cliente(campoNome.getText(), campoCpf.getText(), campoEndereco.getText(), campoEmail.getText());
-                salvarCliente(novoCliente, "data/usuarios.txt");
+                salvarCliente(novoCliente, "urbanTrends/data/usuarios.txt");
                 JOptionPane.showMessageDialog(null, "Cadastro realizado com sucesso.");
                 new TelaLogin(new Carrinho(), new Estoque());
                 dispose();

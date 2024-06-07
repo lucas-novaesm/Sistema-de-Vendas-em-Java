@@ -26,12 +26,12 @@ public class TelaPrincipal extends JFrame {
         JPanel painelPrincipal = new JPanel(new BorderLayout());
 
         // Adicionando produtos ao estoque (apenas para fins de demonstração)
-        estoque.adicionarProduto(new Produto(1, "CAMISA", 75.0, "imagens/camisa.png"), 10);
-        estoque.adicionarProduto(new Produto(2, "MOLETOM", 90.0, "imagens/moletom.png"), 10);
-        estoque.adicionarProduto(new Produto(3, "CAMISA SOCIAL", 70.0, "imagens/camisa_social.png"), 10);
-        estoque.adicionarProduto(new Produto(4, "CALÇA MOLETOM", 95.0, "imagens/calca_moletom.png"), 10);
-        estoque.adicionarProduto(new Produto(5, "CALÇA JEANS", 110.0, "imagens/calca_jeans.png"), 10);
-        estoque.adicionarProduto(new Produto(6, "BERMUDA", 60.0, "imagens/bermuda.png"), 10);
+        estoque.adicionarProduto(new Produto(1, "CAMISA", 75.0, "urbanTrends/imagens/camisa.png"), 10);
+        estoque.adicionarProduto(new Produto(2, "MOLETOM", 90.0, "urbanTrends/imagens/moletom.png"), 10);
+        estoque.adicionarProduto(new Produto(3, "CAMISA SOCIAL", 70.0, "urbanTrends/imagens/camisa_social.png"), 10);
+        estoque.adicionarProduto(new Produto(4, "CALÇA MOLETOM", 95.0, "urbanTrends/imagens/calca_moletom.png"), 10);
+        estoque.adicionarProduto(new Produto(5, "CALÇA JEANS", 110.0, "urbanTrends/imagens/calca_jeans.png"), 10);
+        estoque.adicionarProduto(new Produto(6, "BERMUDA", 60.0, "urbanTrends/imagens/bermuda.png"), 10);
 
         JPanel painelProdutos = new JPanel(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
