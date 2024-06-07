@@ -4,7 +4,7 @@ Este é um projeto de implementação de um sistema de vendas em Java, com inter
 
 ## Logomarca da Loja
 
-![Logomarca da Loja](caminho/para/logomarca.png)
+[![Logomarca da Loja](urbanTrends/imagens/logo_ut.png)](https://raw.githubusercontent.com/lucas-novaesm/Trabalho-final-de-LP-POO/main/urbanTrends/imagens/logo_ut.png)
 
 ## Funcionalidades:
 
@@ -45,7 +45,8 @@ Este é um projeto de implementação de um sistema de vendas em Java, com inter
 
 ## Vídeo de Demonstração 🎥
 
-[Adicione um link para o vídeo de demonstração aqui]
+https://github.com/lucas-novaesm/Trabalho-final-de-LP-POO/assets/122632100/bbad5825-63b1-4501-8b3c-fdfe238505e2
+
 
 ## Como Rodar o Projeto ▶️:
 
