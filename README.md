@@ -2,8 +2,6 @@
 
 Este é um projeto de implementação de um sistema de vendas em Java, com interface gráfica usando Swing. O sistema permite que os usuários visualizem uma vitrine de produtos, adicionem itens ao carrinho, visualizem o carrinho, realizem o pagamento e efetuem o logout.
 
-## Logomarca da Loja
-
 [![Logomarca da Loja](urbanTrends/imagens/logo_ut.png)](https://raw.githubusercontent.com/lucas-novaesm/Trabalho-final-de-LP-POO/main/urbanTrends/imagens/logo_ut.png)
 
 ## Funcionalidades:
