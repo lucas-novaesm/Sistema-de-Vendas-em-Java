@@ -31,7 +31,7 @@ public class TelaCadastro extends JFrame {
         gbc.insets = new Insets(10, 10, 10, 10);
 
         // Adicionar logomarca
-        ImageIcon logoIcon = new ImageIcon("imagens/logo_ut.png");
+        ImageIcon logoIcon = new ImageIcon("Trabalho-final-de-LP-POO/imagens/logo_ut.png");
         JLabel labelLogo = new JLabel(logoIcon);
         gbc.gridx = 0;
         gbc.gridy = 0;
@@ -95,7 +95,7 @@ public class TelaCadastro extends JFrame {
         botaoCadastrar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 Cliente novoCliente = new Cliente(campoNome.getText(), campoCpf.getText(), campoEndereco.getText(), campoEmail.getText());
-                salvarCliente(novoCliente, "urbanTrends/data/usuarios.txt");
+                salvarCliente(novoCliente, "Trabalho-final-de-LP-POO/urbanTrends/data/usuarios.txt");
                 JOptionPane.showMessageDialog(null, "Cadastro realizado com sucesso.");
                 new TelaLogin(new Carrinho(), new Estoque());
                 dispose();

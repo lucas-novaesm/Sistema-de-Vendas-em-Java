@@ -25,7 +25,7 @@ public class TelaPagamento extends JFrame {
         gbc.insets = new Insets(10, 10, 10, 10);
 
         // Adicionar logomarca
-        ImageIcon logoIcon = new ImageIcon("imagens/logo_ut.png");
+        ImageIcon logoIcon = new ImageIcon("Trabalho-final-de-LP-POO/imagens/logo_ut.png");
         JLabel labelLogo = new JLabel(logoIcon);
         gbc.gridx = 0;
         gbc.gridy = 0;
