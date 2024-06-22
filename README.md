@@ -45,6 +45,13 @@ Este é um projeto de implementação de um sistema de vendas em Java, com inter
 
 https://github.com/lucas-novaesm/Trabalho-final-de-LP-POO/assets/122632100/bbad5825-63b1-4501-8b3c-fdfe238505e2
 
+## Diagrama de Classes 📊
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/lucas-novaesm/Trabalho-final-de-LP-POO/main/urbanTrends/imagens/diagrama.jpg">
+    <img src="https://raw.githubusercontent.com/lucas-novaesm/Trabalho-final-de-LP-POO/main/urbanTrends/imagens/diagrama.jpg" alt="Diagrama de Classes" width="900" />
+  </a>
+</p>
 
 ## Como Rodar o Projeto ▶️:
 
